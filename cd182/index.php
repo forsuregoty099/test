@@ -78,7 +78,7 @@ if (!@$_GET["cdURL"]) { //Only run if no URL has been submitted
     }
     else {
         include("".$templates["home"]."");
-    }
+    } 
 }
 else {
     echo $proxy->openPage(); //Run proxy with URL submitted when proxy class was instantiated
